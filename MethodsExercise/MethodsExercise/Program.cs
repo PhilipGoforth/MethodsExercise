@@ -5,6 +5,31 @@ namespace MethodsExercise
 {
     class Program
     {
+        static void MyStory(string userName, string favColor, string favAnimal, string favBand)
+        {
+            string result = $"{userName} Macdonald had a {favAnimal}, E-I-E-I-O\nOn that farm they had a {favColor} {favBand},E-I-E-I-O";
+            Console.WriteLine(result);
+        }
+        static void Add(params int[] number)
+        {
+            Console.WriteLine(number.Sum());
+        }
+        static void Sub(params int[] number)
+        {
+            Console.WriteLine(number.Aggregate(1, (a, b) => a - b));
+        }
+        static void Mult(params int[] number)
+        {
+            Console.WriteLine(number.Aggregate(1, (a, b) => a * b));
+        }
+        static void Div(params int[] number)
+        {
+            Console.WriteLine(number.Aggregate(1, (a, b) => a / b));
+        }
+        static void Mod(params int[] number)
+        {
+            Console.WriteLine(number.Aggregate(1, (a, b) => a % b));
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Methods Example!\n What is your name?");
@@ -32,33 +57,6 @@ namespace MethodsExercise
             Div(number);
             Console.WriteLine($"The modulus of all digits is:");
             Mod(number);
-
-            static void MyStory(string userName, string favColor, string favAnimal, string favBand)
-            {
-               string result = $"{userName} Macdonald had a {favAnimal}, E-I-E-I-O\nOn that farm they had a {favColor} {favBand},E-I-E-I-O";
-                Console.WriteLine(result);
-            }
-            static void Add(params int[] number)
-            {
-                Console.WriteLine(number.Sum());
-            }
-            static void Sub(params int[] number)
-            {
-                Console.WriteLine(number.Aggregate(1, (a, b) => a - b));
-            }
-            static void Mult(params int[] number)
-            {
-                Console.WriteLine(number.Aggregate(1, (a, b) => a * b));
-            }
-            static void Div(params int[] number)
-            {
-                Console.WriteLine(number.Aggregate(1, (a, b) => a / b));
-            }
-            static void Mod(params int[] number)
-            {
-                Console.WriteLine(number.Aggregate(1, (a, b) => a % b));
-            }
-
         }
         
     }
