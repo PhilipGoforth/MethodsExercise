@@ -15,13 +15,12 @@ namespace MethodsExercise
             Console.WriteLine("What id your favorite band?");
             string favBand = Console.ReadLine();
 
-            var story = myStory(userName, favColor, favAnimal, favBand);
-            Console.WriteLine(story);
+            myStory(userName, favColor, favAnimal, favBand);
 
-            static string myStory(string userName, string favColor, string favAnimal, string favBand)
+            static void myStory(string userName, string favColor, string favAnimal, string favBand)
             {
                string result = $"{userName} Macdonald had a {favAnimal}, E-I-E-I-O\nOn that farm they had a {favColor} {favBand},E-I-E-I-O";
-                return result;
+                Console.WriteLine(result);
             }
 
         }
