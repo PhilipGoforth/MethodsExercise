@@ -1,0 +1,14 @@
+C:\Users\Ego\repos\MethodsExercise\MethodsExercise\MethodsExercise\bin\Debug\netcoreapp3.1\MethodsExercise.exe
+C:\Users\Ego\repos\MethodsExercise\MethodsExercise\MethodsExercise\bin\Debug\netcoreapp3.1\MethodsExercise.deps.json
+C:\Users\Ego\repos\MethodsExercise\MethodsExercise\MethodsExercise\bin\Debug\netcoreapp3.1\MethodsExercise.runtimeconfig.json
+C:\Users\Ego\repos\MethodsExercise\MethodsExercise\MethodsExercise\bin\Debug\netcoreapp3.1\MethodsExercise.runtimeconfig.dev.json
+C:\Users\Ego\repos\MethodsExercise\MethodsExercise\MethodsExercise\bin\Debug\netcoreapp3.1\MethodsExercise.dll
+C:\Users\Ego\repos\MethodsExercise\MethodsExercise\MethodsExercise\bin\Debug\netcoreapp3.1\MethodsExercise.pdb
+C:\Users\Ego\repos\MethodsExercise\MethodsExercise\MethodsExercise\obj\Debug\netcoreapp3.1\MethodsExercise.csproj.AssemblyReference.cache
+C:\Users\Ego\repos\MethodsExercise\MethodsExercise\MethodsExercise\obj\Debug\netcoreapp3.1\MethodsExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ego\repos\MethodsExercise\MethodsExercise\MethodsExercise\obj\Debug\netcoreapp3.1\MethodsExercise.AssemblyInfoInputs.cache
+C:\Users\Ego\repos\MethodsExercise\MethodsExercise\MethodsExercise\obj\Debug\netcoreapp3.1\MethodsExercise.AssemblyInfo.cs
+C:\Users\Ego\repos\MethodsExercise\MethodsExercise\MethodsExercise\obj\Debug\netcoreapp3.1\MethodsExercise.csproj.CoreCompileInputs.cache
+C:\Users\Ego\repos\MethodsExercise\MethodsExercise\MethodsExercise\obj\Debug\netcoreapp3.1\MethodsExercise.dll
+C:\Users\Ego\repos\MethodsExercise\MethodsExercise\MethodsExercise\obj\Debug\netcoreapp3.1\MethodsExercise.pdb
+C:\Users\Ego\repos\MethodsExercise\MethodsExercise\MethodsExercise\obj\Debug\netcoreapp3.1\MethodsExercise.genruntimeconfig.cache
