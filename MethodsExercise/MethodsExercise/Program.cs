@@ -19,6 +19,7 @@ namespace MethodsExercise
             string result = $"{userName} Macdonald had a {favAnimal}, E-I-E-I-O\nOn that farm they had a {favColor} {favBand},E-I-E-I-O\n";
             Console.WriteLine(result);
         }
+        //The methods below are for exercise 2
         static void Add(params int[] number)
         {
             Console.WriteLine($"The sum of all digits is:");
@@ -46,9 +47,12 @@ namespace MethodsExercise
         }
         static void Main(string[] args)
         {
+            //exercise 1
             MyStory();
 
+            //exercise 2
             Console.WriteLine("Enter a number:");
+            //taking the user input and turning into an int array to use params with int[]
             int input = Convert.ToInt32(Console.ReadLine());
             int[] number = input.ToString().Select(o => Convert.ToInt32(o) - 48).ToArray();
 
