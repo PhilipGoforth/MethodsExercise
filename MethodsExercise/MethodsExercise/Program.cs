@@ -13,7 +13,7 @@ namespace MethodsExercise
             string favColor = Console.ReadLine();
             Console.WriteLine("What is your favorite animal?");
             string favAnimal = Console.ReadLine();
-            Console.WriteLine("What id your favorite band?");
+            Console.WriteLine("What is your favorite band?");
             string favBand = Console.ReadLine();
             
             string result = $"{userName} Macdonald had a {favAnimal}, E-I-E-I-O\nOn that farm they had a {favColor} {favBand},E-I-E-I-O\n";
@@ -51,7 +51,7 @@ namespace MethodsExercise
             MyStory();
 
             //exercise 2
-            Console.WriteLine("Enter a number:");
+            Console.WriteLine("Enter a long number:");
             //taking the user input and turning into an int array to use params with int[]
             int input = Convert.ToInt32(Console.ReadLine());
             int[] number = input.ToString().Select(o => Convert.ToInt32(o) - 48).ToArray();
