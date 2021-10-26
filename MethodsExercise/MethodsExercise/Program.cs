@@ -22,27 +22,27 @@ namespace MethodsExercise
         //The methods below are for exercise 2
         static void Add(params int[] number)
         {
-            Console.WriteLine($"The sum of all digits is:");
+            Console.WriteLine("The sum of all digits is:");
             Console.WriteLine(number.Sum());
         }
         static void Sub(params int[] number)
         {
-            Console.WriteLine($"The subtracted value of all digits is:");
+            Console.WriteLine("The subtracted value of all digits is:");
             Console.WriteLine(number.Aggregate(1,(a, b) => a - b));
         }
         static void Mult(params int[] number)
         {
-            Console.WriteLine($"The product of all digits is:");
+            Console.WriteLine("The product of all digits is:");
             Console.WriteLine(number.Aggregate(1,(a, b) => a * b));
         }
         static void Div(params int[] number)
         {
-            Console.WriteLine($"The remainder of all digits is:");
+            Console.WriteLine("The remainder of all digits is:");
             Console.WriteLine(number.Aggregate(1,(a, b) => a / b));
         }
         static void Mod(params int[] number)
         {
-            Console.WriteLine($"The modulus of all digits is:");
+            Console.WriteLine("The modulus of all digits is:");
             Console.WriteLine(number.Aggregate(1,(a, b) => a % b));
         }
         static void Main(string[] args)
